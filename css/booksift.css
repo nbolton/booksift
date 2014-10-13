@@ -1,0 +1,55 @@
+body {
+	background-color: #FFFFFF;
+	background-image: url(../images/layout_background.gif);
+	background-repeat: repeat-x;
+	margin-top: 29px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.bodyTextStd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: 857D6E;
+}
+
+.bodyTextDarkBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: 433F38;
+}
+
+.formTextfield {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #857D6E;
+	border: #FFFFFF;
+	padding: 5px;
+	height: 100%;
+	width: 144px;
+}
+
+.formDropdown {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #857D6E;
+	border: #FFFFFF;
+	padding: 5px;
+}
+
+.darkTabletSmall {
+	background-image: url(../images/dark_tablet_small_0_b.gif);
+	background-repeat: repeat-x;
+}
+.formTextfieldiSearch {
+	background-image: url(../images/layout_isearch_bg.gif);
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #857D6E;
+	border: #FFFFFF;
+	padding: 5px;
+	height: 100%;
+	width: 144px;
+}

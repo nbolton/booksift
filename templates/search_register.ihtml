@@ -1,0 +1,27 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <!--
+  <tr>
+    <td><img src="../images/icon_tsearch.gif" width="41" height="23" border="0"></td>
+  </tr>
+  <tr>
+    <td height="5"></td>
+  </tr>
+  -->
+  <tr>
+    <td class="bodyTextStd">{lang_register_info}</td>
+  </tr>
+  <!--
+  <tr>
+    <td height="17"></td>
+  </tr>
+  <tr>
+    <td><img src="../images/icon_isearch.gif" width="40" height="23" border="0"></td>
+  </tr>
+  <tr>
+    <td height="5"></td>
+  </tr>
+  <tr>
+    <td class="bodyTextStd">{lang_isearch_info}</td>
+  </tr>
+  -->
+</table>

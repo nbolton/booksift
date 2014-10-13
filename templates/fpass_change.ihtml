@@ -1,0 +1,74 @@
+<script type="text/javascript">
+<!--
+function checkFields() {
+	var password = fpass_change.password.value
+	var pass_conf = fpass_change.pass_conf.value
+	var pass_mismatch = "{lang_pass_mismatch}";
+	var enter_password = "{lang_enter_password}";
+	
+	if (password != pass_conf) {
+		alert(pass_mismatch);
+		return false;
+	}
+	
+	if (!password) {
+		alert(enter_password);
+		return false;
+	}
+}
+-->
+</script>
+{lang_new_pass_help}
+<table border="0" cellspacing="0" cellpadding="0"> 
+  <form name="fpass_change" method="post" onSubmit="return checkFields()"> 
+    <input type="hidden" name="mod" value="fpass"> 
+    <input type="hidden" name="action" value="finalize">
+    <input type="hidden" name="uid" value="{uid}">
+    <input type="hidden" name="trans" value="{trans}">
+    <tr> 
+      <td height="15" class="bodyTextDarkBold">{lang_password}</td> 
+    </tr> 
+    <tr>
+      <td height="35"><table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+        <tr>
+          <td height="1"></td>
+        </tr>
+        <tr>
+          <td width="1"></td>
+          <td><input name="password" type="password" class="formTextfield" tabindex="3"></td>
+          <td width="2"></td>
+        </tr>
+        <tr>
+          <td height="2"></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr> 
+      <td height="15"></td> 
+    </tr> 
+    <tr>
+      <td height="15" class="bodyTextDarkBold">{lang_pass_conf}</td>
+    </tr>
+    <tr>
+      <td height="35"><table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+        <tr>
+          <td height="1"></td>
+        </tr>
+        <tr>
+          <td width="1"></td>
+          <td><input name="pass_conf" type="password" class="formTextfield" tabindex="4"></td>
+          <td width="2"></td>
+        </tr>
+        <tr>
+          <td height="2"></td>
+        </tr>
+      </table></td> 
+    </tr>
+    <tr> 
+      <td height="15"></td> 
+    </tr> 
+    <tr> 
+      <td><input type="image" src="../images/table_login_go.gif"></td> 
+    </tr>  
+  </form> 
+</table>

@@ -1,0 +1,34 @@
+{lang_fpass_info}
+<table border="0" cellspacing="0" cellpadding="0"> 
+  <form name="register" method="post"> 
+    <input name="mod" type="hidden" value="fpass">
+    <input name="action" type="hidden" value="get_sq">
+    <tr>
+      <td height="15" class="bodyTextDarkBold">{lang_email_address}</td>
+    </tr>
+    <tr>
+      <td height="35"><table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+        <tr>
+          <td height="1"></td>
+        </tr>
+        <tr>
+          <td width="1"></td>
+          <td><input name="email" type="text" class="formTextfield" tabindex="3"></td>
+          <td width="2"></td>
+        </tr>
+        <tr>
+          <td height="2"></td>
+        </tr>
+      </table></td> 
+    </tr>
+    <tr>
+      <td class="bodyTextStd">{lang_email_address_info}</td>
+    </tr>
+    <tr> 
+      <td height="20"></td> 
+    </tr>
+    <tr> 
+      <td><input type="image" src="../images/table_login_go.gif"></td> 
+    </tr>  
+  </form> 
+</table>

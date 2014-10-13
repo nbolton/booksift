@@ -1,0 +1,7 @@
+<table  border="0" cellspacing="15" cellpadding="1"> 
+  <!-- BEGIN LinkRow --> 
+  <tr> 
+    <td><a href="{url}" target="{target}"><img src="../images/table_menu_{name}.gif" width="{width}" height="{height}" border="0"></a></td> 
+  </tr> 
+  <!-- END LinkRow --> 
+</table>

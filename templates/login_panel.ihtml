@@ -1,0 +1,131 @@
+<script language="javascript">
+<!--
+var email_address_lang = '{lang_email_address}';
+var password_lang = '{lang_password}';
+
+function login_email(action) {
+	switch(action) {
+		default:
+		  if (login.email.value == '') {
+				login.email.value = email_address_lang;
+			}
+		break;
+		
+		case "clear":
+		  if (login.email.value == email_address_lang) {
+		  	login.email.value = '';
+			}
+		break;
+	}
+}
+
+function login_pass(action) {
+	switch(action) {
+		default:
+			if (login.pass.value == '') {
+		  	login.pass.value = password_lang
+			}
+		break;
+		
+		case "clear":
+		  if (login.pass.value == password_lang) {
+		  	login.pass.value = '';
+			}
+		break;
+	}
+}
+-->
+</script>
+<div id="login_email_info" style="position:absolute; visibility: hidden"> 
+  <table width="280" border="0" cellpadding="0" cellspacing="0" bgcolor="E9E8E5" class="darkTabletSmall"> 
+     <tr> 
+      <td width="3" valign="top"><img src="../images/dark_tablet_small_0_a.gif" width="3" height="49"></td> 
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="5"> 
+          <tr> 
+            <td><span class="bodyTextDarkBold">Email Address</span><span class="bodyTextStd"> - Use this box to enter in your email address that you registered with us. </span></td> 
+          </tr> 
+        </table></td> 
+      <td width="2" valign="top"><img src="../images/dark_tablet_small_0_c.gif" width="2" height="49"></td> 
+    </tr> 
+   </table> 
+</div> 
+<div id="login_pass_info" style="position:absolute; visibility: hidden"> 
+  <table width="280" border="0" cellpadding="0" cellspacing="0" bgcolor="E9E8E5" class="darkTabletSmall"> 
+    <tr> 
+      <td width="3" valign="top"><img src="../images/dark_tablet_small_0_a.gif" width="3" height="49"></td> 
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="5"> 
+          <tr> 
+            <td><span class="bodyTextDarkBold">Password</span><span class="bodyTextStd"> - Please use this box to enter in your password, then click the "OK" button. </span></td> 
+          </tr> 
+        </table></td> 
+      <td width="2" valign="top"><img src="../images/dark_tablet_small_0_c.gif" width="2" height="49"></td> 
+    </tr> 
+  </table> 
+</div> 
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="E9E8E5"> 
+  <tr> 
+    <td><img src="../images/table_login_title.gif" width="32" height="14"></td> 
+  </tr> 
+  <tr> 
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="9">
+      <tr>
+        <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <form method="post" name="login">
+            <input type="hidden" name="mod" value="security">
+            <input type="hidden" name="action" value="auth">
+            <input type="hidden" name="target" value="{target}">
+            <tr>
+              <td colspan="2">
+                <table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+                  <tr>
+                    <td height="1"></td>
+                  </tr>
+                  <tr>
+                    <td width="1"></td>
+                    <td><input name="email" type="text" value="{lang_email_address}" class="formTextfield" onFocus="login_email('clear')" onBlur="login_email()" onmouseover="return overlib(login_email_info.innerHTML);" onmouseout="return nd();" tabindex="1"></td>
+                    <script>login_email()</script>
+                    <td width="2"></td>
+                  </tr>
+                  <tr>
+                    <td height="2"></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="6" colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+                  <tr>
+                    <td height="1"></td>
+                  </tr>
+                  <tr>
+                    <td width="1"></td>
+                    <td><input name="pass" type="password" value="{lang_password}" class="formTextfield" onFocus="login_pass('clear')" onBlur="login_pass()"  onmouseover="return overlib(login_pass_info.innerHTML);" onmouseout="return nd();" tabindex="2"></td>
+                    <script>login_pass()</script>
+                    <td width="2"></td>
+                  </tr>
+                  <tr>
+                    <td height="2"></td>
+                  </tr>
+              </table></td>
+            <tr>
+              <td height="6" colspan="2"></td>
+            </tr>
+            <tr>
+              <td align="left"><a href="?mod=register"><img src="../images/table_login_register.gif" width="54" height="18" border="0"></a></td>
+              <td align="right"><input name="image" type="image" src="../images/table_login_go.gif" width="27" height="18"></td>
+            </tr>
+            <tr>
+              <td colspan="2" height="6"></td>
+              </tr>
+            <tr align="left">
+              <td colspan="2" class="bodyTextStd"><a href="?mod=fpass">Forgot Password</a></td>
+              </tr>
+          </form>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr> 
+</table> 

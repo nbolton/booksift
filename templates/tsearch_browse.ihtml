@@ -1,0 +1,43 @@
+<p>{lang_browse_info}</p>
+<p><a href="./?mod=tsearch&action=new"><img src="../images/icon_new.gif" alt="{lang_alt_new_query}" width="30" height="18" border="0"></a></p>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td> <table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+              <tr> 
+                <td width="1" valign="top" bgcolor="C6C5C4"><img src="../images/news_tablet_0_a.gif" width="1" height="21"></td> 
+                <td bgcolor="FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="4"> 
+                    <tr style="background-image:url(../images/news_tablet_0_b.gif); background-repeat:repeat-x" class="bodyTextDarkBold"> 
+                      <td>{header_keywords}</td> 
+                      <td>{header_earliest_date}</td> 
+                      <td>{header_running_since}</td> 
+                      <td>{header_query_interval}</td> 
+                      <td colspan="2"></td> 
+                    </tr> 
+                    <!-- BEGIN QueryRow --> 
+                    <tr class="bodyTextStd" id="row_{id}" onMouseOver="setRowColour('row_{id}', '#EFEFEC')" onMouseOut="clearRowColour('row_{id}')"> 
+                      <td>{keywords}</td> 
+					  <td>{earliest_date}</td>
+                      <td>{running_since}</td> 
+                      <td>{interval}</td> 
+                      <!--<td><a href='?mod=tsearch&action=details&id={id}'>{lang_details}</a></td>-->
+                      <td><a href='?mod=tsearch&action=run&id={id}' onClick="notifySearching('?mod=tsearch&action=run&id={id}')">{lang_search_now}</a></td> 
+                    </tr> 
+                    <!-- END QueryRow --> 
+                  </table></td> 
+                <td width="2" valign="top" background="../images/news_tablet_1_c.gif"><img src="../images/news_tablet_0_c.gif" width="2" height="21"></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/news_tablet_2_b.gif"> 
+              <tr> 
+                <td width="1"><img src="../images/news_tablet_2_a.gif" width="3" height="2"></td> 
+                <td width="2" align="right"><img src="../images/news_tablet_2_c.gif" width="2" height="2"></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 

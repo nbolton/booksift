@@ -1,0 +1,52 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td><table width="300" border="0" cellpadding="0" cellspacing="0" class="darkTabletSmall"> 
+        <tr> 
+          <td width="3" valign="top"><img src="../images/dark_tablet_small_0_a.gif" width="3" height="49"></td> 
+          <td valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="5"> 
+              <tr> 
+                <td class="bodyTextStd">{news_help}</td> 
+              </tr> 
+            </table></td> 
+          <td width="2" valign="top"><img src="../images/dark_tablet_small_0_c.gif" width="2" height="49"></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+  <tr> 
+    <td height="15"></td> 
+  </tr> 
+  <tr> 
+    <td> <table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+              <tr> 
+                <td width="1" valign="top" bgcolor="C6C5C4"><img src="../images/news_tablet_0_a.gif" width="1" height="21"></td> 
+                <td bgcolor="FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="4"> 
+                    <tr style="background-image:url(../images/news_tablet_0_b.gif); background-repeat:repeat-x" class="bodyTextDarkBold"> 
+                      <td>{header_title}</td> 
+                      <td>{header_date}</td> 
+                      <td colspan="1"></td> 
+                    </tr> 
+                    <!-- BEGIN NewsRow --> 
+                    <tr class="bodyTextStd" id="row_{id}" onClick="parent.location='?mod=news&action=details&id={id}'" onMouseOver="setRowColour('row_{id}', '#EFEFEC')" onMouseOut="clearRowColour('row_{id}')"> 
+                      <td>{title}</td> 
+                      <td>{date}</td> 
+                      <td><a href='?mod=news&action=details&id={id}'>{lang_view}</a></td> 
+                    </tr> 
+                    <!-- END NewsRow --> 
+                  </table></td> 
+                <td width="2" valign="top" background="../images/news_tablet_1_c.gif"><img src="../images/news_tablet_0_c.gif" width="2" height="21"></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/news_tablet_2_b.gif"> 
+              <tr> 
+                <td width="1"><img src="../images/news_tablet_2_a.gif" width="3" height="2"></td> 
+                <td width="2" align="right"><img src="../images/news_tablet_2_c.gif" width="2" height="2"></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 

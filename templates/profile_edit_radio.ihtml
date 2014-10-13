@@ -1,0 +1,9 @@
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><input name="{name}" type="radio" value="Yes" {yes_checked}></td>
+    <td class="bodyTextStd">Yes</td>
+    <td width="10"></td>
+    <td><input name="{name}" type="radio" value="No" {no_checked}></td>
+    <td class="bodyTextStd">No</td>
+  </tr>
+</table>

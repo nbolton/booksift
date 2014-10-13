@@ -1,0 +1,43 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0" background="../images/news_tablet_0_b.gif"> 
+        <tr> 
+          <td width="1"><img src="../images/news_tablet_0_a.gif" width="1" height="21"></td> 
+          <td><table width="100%"  border="0" cellspacing="0" cellpadding="4"> 
+              <tr> 
+                <td class="bodyTextDarkBold">{title}</td> 
+                <td align="right" class="bodyTextStd">{date}</td> 
+              </tr> 
+            </table></td> 
+          <td width="2"><img src="../images/news_tablet_0_c.gif" width="2" height="21"></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+  <tr> 
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="1" bgcolor="C6C5C4"></td> 
+          <td bgcolor="FFFFFF"> <table width="100%"  border="0" cellspacing="0" cellpadding="5"> 
+              <tr> 
+                <td class="bodyTextStd">{body}</td> 
+              </tr> 
+              <tr> 
+                <td height="5"></td> 
+              </tr> 
+              <tr> 
+                <td class="bodyTextStd">{author}</td> 
+              </tr> 
+            </table></td> 
+          <td width="2" background="../images/news_tablet_1_c.gif"></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+  <tr> 
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/news_tablet_2_b.gif"> 
+        <tr> 
+          <td width="1"><img src="../images/news_tablet_2_a.gif" width="3" height="2"></td> 
+          <td width="2" align="right"><img src="../images/news_tablet_2_c.gif" width="2" height="2"></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table>

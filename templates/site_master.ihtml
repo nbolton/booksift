@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>{html_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/booksift.css" rel="stylesheet" type="text/css">
+<script src="../js/overlib.js" language="JavaScript"></script>
+<script src="../js/booksift.js" language="JavaScript"></script>
+</head>
+<body> 
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
+<div id="Searching" style="position:absolute; visibility:hidden; z-index:1000;">{Searching}</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="../images/layout_title_0_a.gif" width="342" height="81" border="0" usemap="#logo"><map name="logo"><area shape="rect" coords="0,0,252,79" href="./"></map></td>
+        <td width="220" align="center"><img src="../images/logo_amazon.gif" alt="Powered by Amazon.com." width="168" height="25" border="0"></td>
+      </tr>
+    </table>      </td> 
+  </tr> 
+  <tr> 
+    <td valign="top"><table width="100%" height="37" border="0" cellpadding="0" cellspacing="0" background="../images/layout_title_2_b.gif" bgcolor="E9E8E5"> 
+        <tr> 
+          <td width="3"><img src="../images/layout_title_2_a.gif" width="3" height="37"></td> 
+          <td width="254"><table height="37" border="0" cellpadding="10" cellspacing="0"> 
+              <tr> 
+                <td><span class="bodyTextStd">{login_status}</span></td> 
+              </tr> 
+            </table></td> 
+          <td width="77" valign="top"><img src="../images/layout_title_1_a.gif" width="77" height="27"></td> 
+		  <td align="right">&nbsp;<!--
+		  <table  border="0" cellpadding="0" cellspacing="0">
+            <form name="searchForm" method="get" action="../search" onSubmit="notifySearching()">
+              <tr>
+                <td width="130" align="right" class="bodyTextDarkBold">{lang_search_for_books}:</td>
+                <td width="10"></td>
+                <td><table width="147" height="26" border="0" cellspacing="0" cellpadding="0" background="../images/table_login_field.gif">
+                    <tr>
+                      <td height="1"></td>
+                    </tr>
+                    <tr>
+                      <td width="1"></td>
+                      <td><input name="keywords" type="text" class="formTextfieldiSearch" value="{Keywords}"></td>
+                      <td width="2"></td>
+                    </tr>
+                    <tr>
+                      <td height="2"></td>
+                    </tr>
+                </table></td>
+                <td width="10"></td>
+                <td><input name="image" type="image" src="../images/table_login_go.gif"></td>
+                <td width="5"></td>
+              </tr>
+            </form>
+          </table>
+		  --></td>
+          <td align="right" width="2"><img src="../images/layout_title_2_c.gif" width="2" height="37"></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+  <tr> 
+    <td height="10"></td> 
+  </tr> 
+  <tr> 
+    <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="165" valign="top" bgcolor="#F7F6F5"> <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+              <tr> 
+                <td>{UserPanel}</td> 
+              </tr> 
+              <tr> 
+                <td height="10" bgcolor="#FFFFFF"></td> 
+              </tr> 
+              <tr> 
+                <td></td> 
+              </tr> 
+            </table> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="1"> 
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+                    <tr> 
+                      <td height="20" align="left" valign="top" bgcolor="#DBD9D3"><img src="../images/table_menu_title.gif" width="32" height="15"></td> 
+                    </tr> 
+                    <tr> 
+                      <td>{MenuPanel}</td> 
+                    </tr> 
+                  </table></td> 
+              </tr> 
+            </table></td> 
+          <td width="10"></td> 
+          <td rowspan="3" valign="top" bgcolor="#F7F6F5"> <table width="100%" height="100%"  border="0" cellpadding="1" cellspacing="0"> 
+              <tr> 
+                <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+                    <tr> 
+                      <td height="20" align="left" valign="top" bgcolor="#DBD9D3"><img src="../images/table_main_{mod}.gif"></td> 
+                    </tr> 
+                  </table></td> 
+              </tr> 
+            </table> 
+            <table width="100%"  border="0" cellpadding="0" cellspacing="11"> 
+              <tr> 
+                <td class="bodyTextStd"><div id='SubTemplate'>{SubTemplate}</div></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td width="165" valign="bottom" bgcolor="#F7F6F5"> <table border="0" cellspacing="0" cellpadding="0"> 
+              <tr> 
+                <td bgcolor="#FFFFFF" height="10"></td> 
+              </tr> 
+              <!--
+			  <tr> 
+                <td><table width="165" border="0" cellpadding="0" cellspacing="10"> 
+                    <tr> 
+                      <td class="bodyTextStd">Supports <a href="http://www.microsoft.com/windows/ie/default.asp" target="_blank">MSIE 6.0</a>, <a href="http://www.mozilla.org/products/mozilla1.x/" target="_blank">Mozilla 1.6</a> and <a href="http://www.mozilla.org/products/firefox/" target="_blank">Mozilla Firefox 0.8 </a></td> 
+                    </tr> 
+                  </table></td> 
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" height="10"></td>
+              </tr>
+			  -->
+              <tr>
+                <td><table width="165" border="0" cellpadding="0" cellspacing="10">
+                  <tr>
+                    <td class="bodyTextStd">Copyright &copy; 2005<br>Nick <em>'r3n'</em> Bolton &amp;<br>Ray <em>'Shaitan'</em> Breen</td>
+                  </tr>
+                </table></td>
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 
+</body>
+</html>

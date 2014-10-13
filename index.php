@@ -1,0 +1,1 @@
+<?php header("Location: ./site/?mod=home&action=news"); ?>
